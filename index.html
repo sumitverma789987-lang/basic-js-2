@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance counter</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-[#F6F6F6]">
+    <section class="w-full h-screen flex items-center justify-center">
+        <div class="text-center content-center">
+            <h1 class="min-w-53 min-h-11 mb-16 font-normal text-4xl text-[#808080] mx-auto">
+                Advance Counter App
+            </h1>
+            <div
+                class="w-115 min-h-[300] rounded-[20px] bg-white shadow-[[0px_11px_44px_-10px_rgba(0,0,0,0.25)]  text-center p-[15px] mx-auto mt-4">
+                <input type="text" id="count" placeholder="0"
+                    class="min-w-[138px] h-11 font-normal text-4xl text-center text-black bg-white outline-none mx-auto block mt-10">
+                <div class="flex space-x-3 justify-center mt-6">
+                    <button id="btnadd"
+                        class="min-w-[138px] h-[45px] rounded-sm flex items-center justify-center border border-[#128DFF] focus:outline-none text-blue-500 text-[16px] font-semibold  bg-white hover:bg-blue-300    ">
+                        Add One
+                    </button>
+
+                    <button id="btnsave"
+                        class="w-[138px] h-[45px] flex items-center justify-center   rounded-sm bg-[linear-gradient(97.42deg,#128DFF_-4.95%,#1444EF_109.04%)] text-white font-semibold hover:opacity-90 text-[16px]">
+                        Save
+                    </button>
+
+                </div>
+                <div class="mt-10">
+                    <h2 class="text-gray-500 mb-2 text-[18px] "> Previous Values</h2>
+                    <div id="prev" class=" space-y-1 text-[16px] font-medium">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
